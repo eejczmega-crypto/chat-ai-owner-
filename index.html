@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090909"><title>Chat MeGa AI</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<div class="shell"><aside class="sidebar" id="sidebar">
+  <div class="brand"><div class="logo">M</div><div><b>Chat MeGa</b><small>ARTIFICIAL INTELLIGENCE</small></div></div>
+  <button class="new-chat" id="newChat">＋ محادثة جديدة</button><div class="side-label">مساحة العمل</div>
+  <button class="side-link active">✦ المحادثة الذكية</button>
+  <button class="side-link" data-info="توليد الصور">▧ توليد الصور <span>قريباً</span></button>
+  <button class="side-link" data-info="تحليل الملفات">▤ تحليل الملفات <span>قريباً</span></button>
+  <button class="side-link" data-info="البحث على الإنترنت">⌕ البحث على الإنترنت <span>قريباً</span></button>
+  <div class="side-bottom"><div class="plan"><small>خطتك الحالية</small><b id="planName">زائر</b><button id="upgrade">تفاصيل الخطط</button></div>
+  <div class="profile"><div class="avatar">M</div><div><b id="profileName">زائر Chat MeGa</b><small id="profileRole">سجّل الدخول للبدء</small></div></div>
+  <button class="side-link" id="logoutBtn" hidden>تسجيل الخروج</button></div>
+</aside>
+<main class="main"><header><button class="mobile-brand" id="menuBtn">☰</button><div class="top-brand">Chat MeGa <span>AI</span></div><div class="top-actions"><a class="admin-link" id="adminLink" href="/admin" hidden>لوحة المالك</a><button id="themeBtn">◐</button><button id="authBtn">دخول / حساب جديد</button></div></header>
+<section class="welcome" id="welcome"><div class="spark">✦</div><p class="eyebrow">YOUR PERSONAL AI ASSISTANT</p><h1>أهلاً بك في <em>Chat MeGa AI</em></h1><p class="sub">فكرتك تبدأ هنا. اسأل، اكتب، تعلّم، وابتكر بمساعدة الذكاء الاصطناعي.</p>
+<div class="suggestions"><button class="suggest" data-prompt="اكتب لي خطة لتعلم البرمجة من الصفر">⌘ <b>تعلم البرمجة</b><small>ابدأ رحلتك خطوة بخطوة</small></button><button class="suggest" data-prompt="اكتب إعلاناً احترافياً لمشروعي">✎ <b>كتابة المحتوى</b><small>إعلانات ونصوص احترافية</small></button><button class="suggest" data-prompt="اشرح لي الذكاء الاصطناعي بطريقة بسيطة">✧ <b>اسأل وتعلّم</b><small>إجابات واضحة ومبسطة</small></button></div></section>
+<section class="chat" id="chat" aria-live="polite"></section><form class="composer" id="chatForm"><div class="input-wrap"><textarea id="prompt" rows="1" placeholder="اكتب رسالتك إلى Chat MeGa AI..." required></textarea><div class="input-tools"><span>✦ الذكاء الاصطناعي</span><button type="submit" id="sendBtn">إرسال ↑</button></div></div><p>قد يخطئ الذكاء الاصطناعي؛ راجع المعلومات المهمة دائماً.</p></form><footer>© 2026 Chat MeGa AI <span>صُنع بشغف ✦</span></footer></main></div>
+<div class="modal" id="authModal"><div class="modal-card"><button class="close" id="closeAuth">×</button><h2 id="authTitle">تسجيل الدخول</h2><form id="authForm"><div id="nameField" hidden><input id="authName" placeholder="الاسم" autocomplete="name"></div><input id="authEmail" type="email" placeholder="البريد الإلكتروني" required autocomplete="email"><input id="authPassword" type="password" placeholder="كلمة المرور (10 أحرف على الأقل)" required autocomplete="current-password"><button class="gold-btn" id="authSubmit">دخول</button></form><button class="switch-auth" id="switchAuth">إنشاء حساب جديد</button><p class="hint">حساب المالك يُحدد من إعدادات الخادم ولا يمكن ترقيته من المتصفح.</p></div></div>
+<div class="modal" id="upgradeModal"><div class="modal-card"><button class="close" id="closeUpgrade">×</button><div class="spark">♛</div><h2>خطط Chat MeGa AI</h2><p>تظهر الخطط المتاحة هنا. تفعيل Premium يتم يدوياً بواسطة المالك.</p><div class="price">Premium <small>300 رسالة يومياً</small></div><p>تواصل مع إدارة الموقع لمعرفة آلية الاشتراك.</p></div></div>
+<script src="/app.js"></script></body></html>
